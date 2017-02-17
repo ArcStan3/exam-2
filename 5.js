@@ -1,5 +1,12 @@
 const data = require('./data.js')
-
+const {
+    map,
+    compose,
+    reduce,
+    take,
+    filter,
+    uniq
+} = require('ramda')
 // Return an array of the various weather conditions, the conditions cannot repeat.
 // HINT: there'a a ramda function that returns a unique list.
 
@@ -13,6 +20,9 @@ const data = require('./data.js')
 //   'Snow',
 //   'Chance of Rain' ]
 
-var result = // your code goes here.
+var result = compose(
+  uniq(),
+  map(x => x.condition)
+)(data.hourly_forecast)
 
 console.log("Unique and various weather conditions:", result)
