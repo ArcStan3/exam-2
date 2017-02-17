@@ -18,7 +18,7 @@ const {
 //console.log(map(x => x.condition.includes('Rain'), data.hourly_forecast))
 
 var result = compose(
-  reduce((a, b) => b.condition.includes('Rain') ? "Yes" : "No", ""),
+  reduce((a, b) => b.condition.includes('Rain') === true ? "Yes" : "No", ""),
   filter(x => x.FCTTIME.weekday_name === "Sunday" || x.FCTTIME.weeday_name === "Saturday")
 )(data.hourly_forecast)
 
