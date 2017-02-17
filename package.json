@@ -1,0 +1,23 @@
+{
+  "name": "exam-2",
+  "version": "1.0.0",
+  "description": "- Fork this repo. - Clone _your fork_.  Do not clone the original repo. - Commit and push your answers to your fork.   - Complete all 6 test questions. Use ramda and functional programming as much as possible. - Complete each test question within the designated file:  **1.js**,  **2.js**, etc. - The data for the exam is located in **data.js**. - Each test question file leverages the data within **data.js** file by requiring the data as a node module. - The data can be reviewed in a web browser via the following url:",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcStan3/exam-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcStan3/exam-2/issues"
+  },
+  "homepage": "https://github.com/ArcStan3/exam-2#readme",
+  "dependencies": {
+    "ramda": "^0.23.0"
+  }
+}

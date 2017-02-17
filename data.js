@@ -13,7 +13,10 @@ module.exports = {
 	"hourly_forecast": [
 		{
 		"FCTTIME": {
-		"hour": "20","hour_padded": "20","min": "00","min_unpadded": "0","sec": "0","year": "2017","mon": "2","mon_padded": "02","mon_abbrev": "Feb","mday": "16","mday_padded": "16","yday": "46","isdst": "0","epoch": "1487300400","pretty": "8:00 PM MST on February 16, 2017","civil": "8:00 PM","month_name": "February","month_name_abbrev": "Feb","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": "","UTCDATE": ""
+		"hour": "20","hour_padded": "20","min": "00","min_unpadded": "0","sec": "0","year": "2017","mon": "2","mon_padded": "02","mon_abbrev": "Feb","mday": "16","mday_padded": "16"
+    ,"yday": "46","isdst": "0","epoch": "1487300400","pretty": "8:00 PM MST on February 16, 2017","civil": "8:00 PM","month_name": "February","month_name_abbrev": "Feb",
+    "weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday",
+    "weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": "","UTCDATE": ""
 		},
 		"temp": {"english": "42", "metric": "6"},
 		"dewpoint": {"english": "27", "metric": "-3"},
