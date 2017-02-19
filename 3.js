@@ -4,7 +4,8 @@ const {
     compose,
     reduce,
     take,
-    filter
+    filter,
+    reject
 } = require('ramda')
 // What will the weather be like during my morning commute?
 // Return an array of objects containing:
@@ -23,6 +24,7 @@ var result = compose(
         Time: x.FCTTIME.pretty,
         Condition: x.condition
     })),
+    reject(x => x.FCTTIME.weekday_name === "Sunday" || x.FCTTIME.weekday_name === "Saturday"),
     filter(x => x.FCTTIME.hour === "7" || x.FCTTIME.hour === "8")
 )(data.hourly_forecast)
 
